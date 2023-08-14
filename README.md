@@ -1,27 +1,30 @@
-# vite-template-redux
+# Application Starter
+## Backend application
+First run the [backend] server
 
-Uses [Vite](https://vitejs.dev/), [Vitest](https://vitest.dev/), and [React Testing Library](https://github.com/testing-library/react-testing-library) to create a modern [React](https://react.dev/) app compatible with [Create React App](https://create-react-app.dev/)
 
-```sh
-npx degit reduxjs/redux-templates/packages/vite-template-redux my-app
+### clone the repository
+```bash
+git clone https://github.com/lappet69/crudContact-react-vite.git
+
+cd crudContact-react-vite
+
+npm install
+
+```
+## Setup Environment
+Copy `.env.example` to `.env.local` for your app and set up [backend]
+
+
+## Run application
+
+```bash
+npm run dev
+
 ```
 
-## Goals
+[backend]:https://github.com/lappet69/laravel-lumen-api-contact.git
 
-- Easy migration from Create React App or Vite
-- As beginner friendly as Create React App
-- Optimized performance compared to Create React App
-- Customizable without ejecting
 
-## Scripts
-
-- `dev`/`start` - start dev server and open browser
-- `build` - build for production
-- `preview` - locally preview production build
-- `test` - launch test runner
-
-## Inspiration
-
-- [Create React App](https://github.com/facebook/create-react-app/tree/main/packages/cra-template)
-- [Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react)
-- [Vitest](https://github.com/vitest-dev/vitest/tree/main/examples/react-testing-lib)
+# vite
+ More Documentation about [Vite](https://vitejs.dev/),
